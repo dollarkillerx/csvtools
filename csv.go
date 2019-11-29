@@ -68,3 +68,9 @@ func (c *csv) decode() ([][]string) {
 	}
 	return result
 }
+
+//func (c *csv) Unmarshal(ptr interface{}) error {
+//	of := reflect.TypeOf(ptr).Kind()
+//	//if of == refle
+//
+//}
